@@ -2,7 +2,7 @@ Gem::Specification.new do |spec|
   spec.name = 'SpreadsheetML'
   spec.author = 'Wesley Moxam'
   spec.email = 'wesley.moxam@savvica.com'
-  spec.files = ['spreadsheetlm.rb']
+  spec.files = Dir['lib/*.rb'] + ['init.rb']
   spec.description = 'A VERY simple Ruby SpreadsheetML API'
   spec.summary = 'A Ruby wrapper for Bing search API'
   spec.homepage = 'http://github.com/wmoxam/SpreadsheetML'
